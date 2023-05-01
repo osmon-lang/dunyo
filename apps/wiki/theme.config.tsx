@@ -120,10 +120,8 @@ const config: DocsThemeConfig = {
     text: "Ushbu sahifani GitHubda tahrirlash →",
   },
   feedback: {
-    labels: "Savollar? Takliflaringizni qoldiring →",
-    useLink: () => {
-      return "https://t.me/osmonchat/136";
-    },
+    content: "Takliflaringizni qoldiring →",
+    useLink: () => "https://t.me/osmonchat/136"
   },
   gitTimestamp: (props) => {
     return (
