@@ -47,7 +47,6 @@ export const logs: { version: string; date: Date; text: string }[] = [
   {
     version: '0.7',
     date: new Date(2023, 4, 25),
-    text: "Gibrid implmenetatsiya reliz."
     text: 'Gibrid implmenetatsiya reliz.'
   }
 ]
