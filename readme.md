@@ -1,9 +1,24 @@
-<a href="https://osmon.dev"><img src=".github/ASSETS/Banner.png" alt="Osmon's Hero Image"></a>
 
-<p align="center"><h1 align="center">Osmon</h1></p>
+<header>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/osmon-lang/.github/raw/main/ASSETS/Osmon%20White.png">
+  <img alt="Osmon's Logo" height="100" align="left" src="https://github.com/osmon-lang/.github/raw/main/ASSETS/Osmon%20Black.png">
+</picture>
+<h1 style="display: inline">Dunyo</h1>
 
-<p align="center"><h3 align="center">Programming Language | Dasturlash Tili</h3></p>
+Web infra made for Osmon programming language.
 
-<p align="center">O'zbek boshlang'ichlari uchun o'rgatuvchi til | Language made for uzbek learners</p>
+</header>
 
-<p align="center"><a href="https://osmon.dev">Website</a> | <a href="https://wiki.osmon.dev">Wiki</a></p>
+[![GitHub top language](https://img.shields.io/github/languages/top/osmon-lang/dunyo?color=232323&logo=github&labelColor=232323)](https://github.com/osmon-lang/dunyo)
+[![Channel](https://img.shields.io/badge/telegram-grey?color=232323&label=chat&logo=telegram&labelColor=232323)](https://t.me/osmonlang)
+[![Release CI](https://img.shields.io/github/actions/workflow/status/osmon-lang/dunyo/shell.yml?color=232323&label=shell&logo=github-actions&labelColor=232323)](https://github.com/osmon-lang/dunyo/actions/workflows/shell.yml)
+[![Tests CI](https://img.shields.io/github/actions/workflow/status/osmon-lang/dunyo/turbo.yaml?color=232323&label=turbo&logo=github-actions&labelColor=232323)](https://github.com/osmon-lang/dunyo/actions/workflows/turbo.yaml)
+
+## About
+
+Web infrastructure made specifically for Osmon programming language that includes a website, documentation, and a playground.
+
+## License
+
+This project is licensed under MIT License - see the [MIT](./apps/web/LICENSE) files for details.
