@@ -1,11 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true, // Recommended for the `pages` directory, default in `app`.
-  swcMinify: true,
-  experimental: {
-    // Required:
-    appDir: true,
-  },
-};
+const withNextra = require('nextra')({
+  theme: 'nextra-theme-docs',
+  themeConfig: './theme.config.tsx',
+})
 
-module.exports = nextConfig;
+module.exports = withNextra()

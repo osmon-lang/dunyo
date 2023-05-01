@@ -1,0 +1,15 @@
+{
+  "index": "Bosh sahifa",
+  "another": "Another Page",
+  "advanced": "Advanced (A Folder)",
+  "about": {
+    "title": "Ma'lumot",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Bog'lanish ↗",
+    "type": "page",
+    "href": "https://t.me/osmonlang",
+    "newWindow": true
+  }
+}

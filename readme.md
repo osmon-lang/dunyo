@@ -20,4 +20,4 @@ Web infrastructure made specifically for Osmon programming language that include
 
 ## License
 
-This project is licensed under MIT License - see the [MIT](./apps/web/LICENSE) files for details.
+This project is licensed under MIT License - see the [MIT](license) files for details.

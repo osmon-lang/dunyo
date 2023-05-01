@@ -1,7 +1,14 @@
 {
-  "name": "osmon-backend",
+  "name": "osmon-api",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://api.osmon-lang.uz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmon-lang/dunyo.git"
+  },
+  "author": "Yuri Katsuki <yuri@katsuki.moe> (https://katsuki.moe)",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
