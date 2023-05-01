@@ -1,4 +1,3 @@
-
 <header>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/osmon-lang/.github/raw/main/ASSETS/Osmon%20White.png">
