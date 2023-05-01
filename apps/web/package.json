@@ -15,7 +15,7 @@
   "author": "Yuri Katsuki <yuri@katsuki.moe> (https://katsuki.moe)",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 3000",
     "build": "next build",
     "build:analyze": "cross-env ANALYZE=true pnpm run build",
     "start": "next start",
