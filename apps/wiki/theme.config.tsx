@@ -11,7 +11,7 @@ const config: DocsThemeConfig = {
       </a>
     ),
   },
-  faviconGlyph: "☁️",
+  faviconGlyph: "🌥",
   logo: (
     <svg height="24" viewBox="0 0 2258 606">
       <g transform="matrix(1,0,0,1,-1023.58,-1688.09)">
