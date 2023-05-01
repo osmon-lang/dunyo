@@ -1,7 +1,7 @@
 export const arches: { arch: string; status: string }[] = [
   {
     arch: 'x86_64',
-    status: 'v0.5.0'
+    status: 'v0.7.0'
   },
   {
     arch: 'i686',
@@ -9,7 +9,7 @@ export const arches: { arch: string; status: string }[] = [
   },
   {
     arch: 'arm | arm64',
-    status: 'v0.5.0'
+    status: 'v0.7.0'
   }
 ]
 
@@ -38,5 +38,15 @@ export const logs: { version: string; date: Date; text: string }[] = [
     version: '0.5',
     date: new Date(2022, 5, 1),
     text: "ARM64 va ko'plab sintaktik o'zgarishlar."
+  },
+  {
+    version: '0.6',
+    date: new Date(2023, 3, 12),
+    text: "Osmojit relizi va u bilan integratsiya."
+  },
+  {
+    version: '0.7',
+    date: new Date(2023, 4, 25),
+    text: "Gibrid implmenetatsiya reliz."
   }
 ]
