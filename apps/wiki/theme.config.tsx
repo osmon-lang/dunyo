@@ -91,10 +91,23 @@ const config: DocsThemeConfig = {
     "https://github.com/osmon-lang/osmon/blob/main/apps/wiki/pages",
   footer: {
     text: (
-      <span>
-        MIT 2021-{new Date().getFullYear()} ©{" "}
-        <a href="https://github.com/osmon-lang">Osmon Dasturchilari</a>.
-      </span>
+      <div className="flex w-full flex-col items-center sm:items-start">
+        <div>
+          <a
+            className="flex items-center gap-1 text-current"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://oss.uzinfocom.uz"
+          >
+            <span>
+              Uzinfocom Open Source tomonidan qo&#39;llab quvvatlaniladi
+            </span>
+          </a>
+        </div>
+        <p className="mt-6 text-xs">
+          © 2021-{new Date().getFullYear()} Osmon Dasturlash Tili Dasturchilari.
+        </p>
+      </div>
     ),
   },
   useNextSeoProps() {
