@@ -1,5 +1,5 @@
 {
-  "index": "Bosh sahifa",
+  "index": "Asosiy",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
   "about": {
@@ -8,7 +8,17 @@
   },
   "devs": {
     "title": "Dasturchilar",
-    "type": "page"
+    "type": "menu",
+    "items": {
+      "index": {
+        "title": "Tayyorgarlik",
+        "href": "/devs"
+      },
+      "compilation": {
+        "title": "Kompilyatsiya",
+        "href": "/devs/compilation"
+      }
+    }
   },
   "contact": {
     "title": "Jamiyat ↗",
