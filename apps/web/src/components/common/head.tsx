@@ -34,8 +34,8 @@ const Head = (props: HeadProps) => {
         images: [{ url: props.ogImage ?? defaultMeta.ogImage }]
       },
       twitter: {
-        handle: '@uwussimo',
-        site: '@uwussimo',
+        handle: '@orzklv',
+        site: '@orzklv',
         cardType: 'summary_large_image'
       },
       noindex: props.noIndex

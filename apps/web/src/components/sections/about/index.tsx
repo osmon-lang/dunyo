@@ -77,7 +77,7 @@ const AboutSection = () => {
     }
   }, [inView])
 
-  const uwu = 'https://uwussi.moe/'
+  const orzklv = 'https://orzklv.uz/'
   const chat = 'https://t.me/osmonchat'
 
   return (
@@ -141,9 +141,9 @@ const AboutSection = () => {
             </Text>
             <Text className="about__subtitle">
               Dasturlash tili asosan{' '}
-              <a href={uwu}>
+              <a href={orzklv}>
                 <u>
-                  <b>uwussimo</b>
+                  <b>Sohibjon</b>
                 </u>
               </a>{' '}
               tomonidan yaratilgan va shu dasturchi kuzatuvi ostida

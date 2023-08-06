@@ -12,8 +12,8 @@ export default function Header() {
         content="Backend Serverless API made for Osmon"
       />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@uwussimo" />
-      <meta name="twitter:creator" content="@uwussimo" />
+      <meta name="twitter:site" content="@orzklv" />
+      <meta name="twitter:creator" content="@orzklv" />
       <meta name="twitter:title" content="Osmon API" />
       <meta
         name="twitter:description"
