@@ -5,7 +5,7 @@ type Data = any;
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Data>
+  res: NextApiResponse<Data>,
 ) {
   const { version } = req.query;
   const request = await octokit

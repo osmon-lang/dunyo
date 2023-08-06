@@ -68,7 +68,9 @@ const config: DocsThemeConfig = {
         }
         span:hover {
           mask-position: 100%;
-          transition: mask-position 1s ease, -webkit-mask-position 1s ease;
+          transition:
+            mask-position 1s ease,
+            -webkit-mask-position 1s ease;
         }
       `}</style>
     </span>
@@ -105,7 +107,8 @@ const config: DocsThemeConfig = {
           </a>
         </div>
         <p className="mt-6 text-xs">
-          © 2021-{new Date().getFullYear()} Osmon Dasturlash Tili Dasturchilari.
+          © 2021-{new Date().getFullYear()} Osmon Dasturlash Tili
+          Dasturchilari.
         </p>
       </div>
     ),

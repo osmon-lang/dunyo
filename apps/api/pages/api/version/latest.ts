@@ -5,10 +5,10 @@ type Data = any;
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Data>
+  res: NextApiResponse<Data>,
 ) {
   const request = await octokit.request(
-    "GET /repos/osmon-lang/osmon/releases/latest"
+    "GET /repos/osmon-lang/osmon/releases/latest",
   );
   const latest = request.data;
 

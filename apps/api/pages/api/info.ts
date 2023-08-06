@@ -8,11 +8,11 @@ type Data = {
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Data>
+  res: NextApiResponse<Data>,
 ) {
   // Get IP address from request headers
   const parsedCity = decodeURIComponent(
-    <string>req.headers["x-vercel-ip-city"]
+    <string>req.headers["x-vercel-ip-city"],
   );
 
   // Parse the city from IP Address
