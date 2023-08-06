@@ -1,24 +1,19 @@
 {
-  "index": "Asosiy",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": {
+    "title": "Asosiy",
+    "type": "page"
+  },
   "about": {
     "title": "Ma'lumot",
     "type": "page"
   },
+  "docs": {
+    "title": "Dokumentatsiya",
+    "type": "page"
+  },
   "devs": {
     "title": "Dasturchilar",
-    "type": "menu",
-    "items": {
-      "index": {
-        "title": "Tayyorgarlik",
-        "href": "/devs"
-      },
-      "compilation": {
-        "title": "Kompilyatsiya",
-        "href": "/devs/compilation"
-      }
-    }
+    "type": "page"
   },
   "contact": {
     "title": "Jamiyat ↗",
