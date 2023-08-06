@@ -38,3 +38,6 @@ yarn-error.log*
 # Rust
 target
 **/*.rs.bk
+
+# No lockfiles
+pnpm-lock.yaml
