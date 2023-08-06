@@ -150,7 +150,7 @@ const social = [
   },
   {
     label: 'github',
-    href: 'https://github.com/uwussimo/osmon'
+    href: 'https://github.com/osmon-lang/osmon'
   }
 ]
 
