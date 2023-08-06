@@ -284,7 +284,7 @@ const Footer = () => {
             <FooterLink
               target="_blank"
               rel="noopener"
-              href="mailto:papa@osmon.dev"
+              href="mailto:sakhib@orzklv.uz"
             >
               {/* @ts-ignore */}
               <Text className="label" as="span" heading>
@@ -301,7 +301,7 @@ const Footer = () => {
             }}
           >
             <Text css={{ fontSize: '$1', '@bp2': { fontSize: '$3' } }}>
-              MIT © Osmon 2022
+              Apache & MIT © Osmon 2022-{new Date().getFullYear()}
             </Text>
           </Box>
         </FooterGrid>
