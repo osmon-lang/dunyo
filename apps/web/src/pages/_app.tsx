@@ -74,7 +74,9 @@ const App = ({ Component, pageProps }: AppProps) => {
     }
   }, [fontsLoaded])
 
+
   return (
+    // @ts-ignore
     <QueryClientProvider client={queryClient}>
       <Context.Provider value={{ fontsLoaded }}>
         <Toaster position="bottom-center" />
