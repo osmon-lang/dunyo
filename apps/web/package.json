@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/osmon-lang/dunyo.git"
   },
-  "author": "Yuri Katsuki <yuri@katsuki.moe> (https://katsuki.moe)",
+  "author": "Sokhibjon Orzikulov <sakhib@orzklv.uz> (https://orzklv.uz)",
   "license": "MIT",
   "scripts": {
     "dev": "next -p 3000",
