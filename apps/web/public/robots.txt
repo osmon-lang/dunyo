@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://osmon.dev/
+Host: https://osmon-lang.uz/
 
 # Sitemaps
-Sitemap: https://osmon.dev/sitemap.xml
+Sitemap: https://osmon-lang.uz/sitemap.xml

@@ -126,7 +126,7 @@ export const DownloadButton = ({
       text: encodeURIComponent(
         "Yangi o'zimizning o'zbek dasturchilarimiz tomonidan ishlab chiqilgan dasturlash tili chiqdi. Dasturlash tili Osmon tili deb ataladi va uni shu sahifadan ko'rishingiz mumkin!"
       ),
-      url: encodeURIComponent('https://osmon.dev')
+      url: encodeURIComponent('https://osmon-lang.uz')
     }
     window.open(
       `https://t.me/share/url?url=${encoded.url}&text=${encoded.text}`,
@@ -225,7 +225,7 @@ const Header = ({
     useCallback(
       (e) => {
         e.preventDefault()
-        router.push('https://osmon.dev')
+        router.push('https://osmon-lang.uz')
       },
       [router]
     )

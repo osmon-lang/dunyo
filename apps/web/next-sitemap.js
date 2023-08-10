@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://osmon.dev/',
+  siteUrl: 'https://osmon-lang.uz/',
   generateRobotsTxt: true,
   exclude: []
 }

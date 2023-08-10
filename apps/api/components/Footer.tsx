@@ -23,7 +23,7 @@ export default function Footer() {
 
       <p className="details">
         By{" "}
-        <a target="_blank" rel="noreferrer" href="https://osmon.dev">
+        <a target="_blank" rel="noreferrer" href="https://osmon-lang.uz">
           Osmon&apos;s Authors
         </a>
       </p>

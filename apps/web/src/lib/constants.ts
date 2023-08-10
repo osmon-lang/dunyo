@@ -6,6 +6,6 @@ export const isServer = !isClient
 
 export const siteURL = new URL(
   process.env.NEXT_PUBLIC_SITE_URL ??
-    (isDev ? 'http://localhost:3000' : 'https://osmon.dev')
+    (isDev ? 'http://localhost:3000' : 'https://osmon-lang.uz')
 )
 export const siteOrigin = siteURL.origin

@@ -269,7 +269,7 @@ const Footer = () => {
               </Text>
             </FooterLink>
             <FooterLink
-              href="https://wiki.osmon.dev/"
+              href="https://wiki.osmon-lang.uz/"
               target="_blank"
               rel="noopener"
               css={{

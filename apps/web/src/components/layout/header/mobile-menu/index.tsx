@@ -116,7 +116,7 @@ const MobileMenu = ({ children, isOn, handleToggle }: ToggleState | any) => {
             </Box>
             <Box
               as="a"
-              href="https://osmon.dev"
+              href="https://osmon-lang.uz"
               css={{
                 textAlign: 'center',
                 fontFamily: '$heading',
@@ -125,7 +125,7 @@ const MobileMenu = ({ children, isOn, handleToggle }: ToggleState | any) => {
               className="stagger"
               tabIndex={isOn ? 0 : -1}
             >
-              osmon.dev
+              osmon-lang.uz
             </Box>
           </Box>
         </Container>
