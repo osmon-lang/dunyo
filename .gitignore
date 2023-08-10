@@ -31,13 +31,3 @@ yarn-error.log*
 
 # turbo
 .turbo
-
-# IDEA
-.idea
-
-# Rust
-target
-**/*.rs.bk
-
-# No lockfiles
-pnpm-lock.yaml
