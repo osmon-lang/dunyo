@@ -278,7 +278,7 @@ const DataColumns = ({ tweets: initialTweets, releases }: DataColumnsProps) => {
           <Column
             css={{ display: activeSection === 'features' ? 'block' : 'none' }}
           >
-            <Feature title="kompilyator" score={2} />
+            <Feature title="kompilyator" score={3} />
             <Feature title="standart kutubxona" score={1} />
             <Feature title="bulut VM" score={4} />
             <Feature title="yordamchilar" score={4} />
