@@ -19,11 +19,11 @@
 @font-face {
   font-family: 'Basement Grotesque';
   src:
-    url('/fonts/batang/Batang.woff2') format('woff2'),
-    url('/fonts/batang/Batang.woff') format('woff'),
-    url('/fonts/batang/Batang.otf') format('opentype'),
-    url('/fonts/batang/Batang.ttf') format('ttf'),
-    url('/fonts/batang/Batang.eot') format('eot');
+    url('/fonts/chrysanthi/Chrysanthi.woff2') format('woff2'),
+    url('/fonts/chrysanthi/Chrysanthi.woff') format('woff'),
+    url('/fonts/chrysanthi/Chrysanthi.otf') format('opentype'),
+    url('/fonts/chrysanthi/Chrysanthi.ttf') format('ttf'),
+    url('/fonts/chrysanthi/Chrysanthi.eot') format('eot');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
